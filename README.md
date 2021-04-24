@@ -1,24 +1,58 @@
-# vuetify-project
+# Vue.jsを使ったTrelloのクローンアプリ
 
-## Project setup
+<br />
+
+## 使用技術
+
+***
+
+<br />
+
+- Vue.js
+- Vuex
+- Vue Router
+- Vuetify
+- Vue.Draggable
+
+***
+
+<br />
+
+## 制作手順
+
+***
+
+<br />
+
+### 1.環境構築
+
+- Vue.js  インストール
 ```
-npm install
+$ vue create vuetify-project
+$ cd vuetify-project
+$ npm run serve
+```
+- Vuetify インストール
+```
+$ vue add vuetify
+```
+- Vuex インストール
+```
+$ npm install vuex --save
+```
+- Vue Router インストール
+```
+$ npm install vue-router
+```
+- Vue.Draggable インストール
+```
+$ npm i -S vuedraggable
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<br />
 
-### Compiles and minifies for production
-```
-npm run build
-```
+***
 
-### Lints and fixes files
-```
-npm run lint
-```
+<br />
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 2.
