@@ -8,6 +8,7 @@
 import draggable from 'vuedraggable'
 
 export default {
+    name:"HelloWorld",
     components: {
         draggable,
     },
