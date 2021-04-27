@@ -5,20 +5,20 @@
       <router-view/>
     </v-content>
     <v-main>
-     <HelloWorld/>
+     <TheBoards/>
     </v-main> 
   </v-app>
 </template>
 
 <script>
 import Header from './components/Header';
-import HelloWorld from './components/HelloWorld';
+import TheBoards from './components/TheBoards';
 
 export default {
   name: 'App',
   components: {
     Header,
-    HelloWorld
+    TheBoards
   },
 };
 </script>
