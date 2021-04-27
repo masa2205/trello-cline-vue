@@ -1,11 +1,7 @@
 <template>
   <v-container>
-    <v-row justify="start">
-      <v-col cols="auto">
-        <h1 class="ma-3">{{ $store.state.user.user.name }}'s Boards</h1>
-      </v-col>
-    </v-row>
     <the-boards />
+    <router-link to="/boards"></router-link>
   </v-container>
 </template>
 
