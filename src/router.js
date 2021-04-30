@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Router from 'vue-router';
 import PageBoards from './views/PageBoards.vue';
 
-Vue.use(VueRouter);
+Vue.use(Router);
 
 const router = new Router({
     mode: 'history',
@@ -12,8 +12,8 @@ const router = new Router({
             path: '/boards',
             name: 'boards',
             component: PageBoards,
-            meta: { requiresAuth: true },
-          },
+            meta: { requiresAuth: false },
+          }
     ]
 })
 
