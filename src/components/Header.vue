@@ -1,9 +1,9 @@
 <template>
-  <v-app>
     <v-app-bar
       app
       color="primary"
       dark
+      fix
     >
       <div class="d-flex align-center">
         <v-img
@@ -29,7 +29,6 @@
 
       <v-btn color="brown lighten-3" to="/boards" class="nav-join" data-cy="joinBtn">click</v-btn>
     </v-app-bar>
-  </v-app>
 </template>
 
 <script>
